@@ -10,6 +10,7 @@ until game.won?
 end
 
 play_again = ""
+puts "Enter N or no to exit the game and y or yes to play"
 until play_again.downcase == "n" || play_again.downcase == "no"
   puts "Would you like to play again?"
   play_again = gets.strip
